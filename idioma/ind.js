@@ -119,8 +119,7 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku, role, premi) => { 
 	return `
 ┏━━━⊱  *INFO DE USUARIO*  ⊰━━┓
-┣⊱ *Nombre* : ${pushname}
-┣⊱ *Premium* : ${premi}
+┣⊱ *hola🐦* : ${pushname}
 ┣⊱ *Numero* : wa.me/${sender.split("@")[0]}
 ┣⊱ *Coind* : Rp${uangku}
 ┣⊱ *Exp* : ${getLevelingXp(sender)}/${reqXp} 
@@ -128,9 +127,9 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *Rol* : ${role}
 ┣⊱ *Usuario registrado* : ${_registered.length}
 ┗━━━⊱  ⸨ ****** ⸩  ⊰━━━━┛
+┣⊱Estas son algunas de mis funciones🐦
  *${prefix}info*
- *${prefix}donasi*
- *${prefix}owner*
+ 
 ${a}❏MENU MAKER${a}
  ${a}╿•${prefix}sticker${a}
  ${a}╿•${prefix}quotemaker${a}
@@ -185,56 +184,28 @@ ${a}❏GRUPOS${a}
  ${a}╿•${prefix}blocklist${a}
  ${a}╿•${prefix}grouplist${a}
  ${a}╿•${prefix}level${a}
- ${a}╿•${prefix}linkgc${a}
- ${a}╿•${prefix}tagall${a}
+ ${a}╿•${prefix}enlace del grupo${a}
+ ${a}╿•${prefix}lista de miembros${a}
  ${a}╿•${prefix}setpp${a}
  ${a}╿•${prefix}add${a}
- ${a}╿•${prefix}kick${a}
- ${a}╿•${prefix}setname${a}
- ${a}╿•${prefix}setdesc${a}
+ ${a}╿•${prefix}eliminar${a}
+ ${a}╿•${prefix}cambiar nombre del grupo${a}
+ ${a}╿•${prefix}cambiar descripción del grupo${a}
  ${a}╿•${prefix}demote${a}
  ${a}╿•${prefix}promote${a}
  ${a}╿•${prefix}listadmin${a}
- ${a}╿•${prefix}group [buka/tutup]${a}
+ ${a}╿•${prefix}gropo [abrir/cerrar]${a}
  ${a}╿•${prefix}leveling [enable/disable]${a}
  ${a}╿•${prefix}nsfw [1/0]${a}
  ${a}╿•${prefix}simih [1/0]${a}
- ${a}╿•${prefix}welcome [1/0]${a}
- ${a}╿•${prefix}antilink [1/0]${a}
+ ${a}╿•${prefix}bienvenido [1/0]${a}
+ ${a}╿•${prefix}antienlace [1/0]${a}
  ${a}╰•${prefix}nobadword [enable/disable]${a}
-${a}❏ALMACENAMIENTO${a}
- ${a}╿•${prefix}addsticker${a}
- ${a}╿•${prefix}getsticker${a}
- ${a}╿•${prefix}stickerlist${a}
- ${a}╿•${prefix}addvideo${a}
- ${a}╿•${prefix}getvideo${a}
- ${a}╿•${prefix}videolist${a}
- ${a}╿•${prefix}getimage${a}
- ${a}╿•${prefix}addImage${a}
- ${a}╿•${prefix}imagelist${a}
- ${a}╿•${prefix}addaudio${a}
- ${a}╿•${prefix}getaudio${a}
- ${a}╰•${prefix}audiolist${a}
-${a}❏MENU CREADOR${a}
- ${a}╿•${prefix}bc${a}
- ${a}╿•${prefix}addbadword${a}
- ${a}╿•${prefix}delbadword${a}
- ${a}╿•${prefix}bcgc${a}
- ${a}╿•${prefix}kickall${a}
- ${a}╿•${prefix}setreply${a}
- ${a}╿•${prefix}setprefix${a}
- ${a}╿•${prefix}clearall${a}
- ${a}╿•${prefix}block${a}
- ${a}╿•${prefix}unblock${a}
- ${a}╿•${prefix}leave${a}
- ${a}╿•${prefix}event [1/0]${a}
- ${a}╿•${prefix}clone${a}
- ${a}╰•${prefix}setppbot${a}
- 
-${a}❏AGRADECIMIENTS${a}
+
+${a}❏🐦AGRADECIMIENTO${a}
  ${a}╿${a}
  ${a}╿ • Edgar${a}
- ${a}╿ • King Andrew${a}
+ ${a}╿ • wa.me/50498798682 ${a}
  ${a}╰━━━⊱  ⸨ X-BOT ⸩  ⊰━━━━${a}
 `
 }
